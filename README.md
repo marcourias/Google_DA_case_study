@@ -1,7 +1,7 @@
 # Google_DA_case_study
 This is the solution to the Google Data Analysis Case Study
 
-ASK
+## ASK
 
 What is the problem you are trying to solve? 
 In this case study the goal is to find out how consumers use non-Bellabeat smart devices.
@@ -10,7 +10,7 @@ How can your insights drive business decisions?
 By finding out what the consumers are behaving and looking for in products of a similar category, it’s possible to focus the efforts of the company.
 
 
-PREPARE
+## PREPARE
 
 The data set is stored in a BigQuery account (Data analyst’s account)
 Data is presented in a long format, because there are values that repeat, for example id’s are repeated several times in the left column. Which constitutes the characteristics of a long format. (Zach, 2021)
@@ -32,11 +32,7 @@ https://www.cdc.gov/sleep/about_sleep/how_much_sleep.html
 
 
 
-
-
-
-
-PROCESS
+## PROCESS
 
 The chosen tools to process the data are BigQuery and Tableau, according to the characteristics of the data set I find that the easiest tools are using SQL provided by Google’s platform for data cleaning and manipulation, in conjunction with Tableau for visualization.
 The data was loaded (.csv files) to a personal BigQuery account (free) where there was a dataset created, named caseS.
@@ -228,7 +224,7 @@ FROM `caseS.dailySleep`
 GROUP BY Id;
 
 
-ANALYZE
+## ANALYZE
 
 The data was all collected in a BigQuery database called caseS. In there were the main csv files (converted into BigQuery’s format)
 Some of the data was imported as string raw data, because there was an issue importing the column containing datetime. However, those files were later converted (using CAST por PARSE) to the proper format (int64 and datetime)
@@ -242,7 +238,7 @@ To acquire this data, it was needed to perform some calculations, using addition
 While performing this operations, new tables were created in order to prepare the data for exporting and later use it into Tableau for visualization.
 Finally, for reference and comparison health and fitness data was consulted in trusted sources such as the World Health Organization, or National Health institutes. This way, it was possible to compare how customers are behaving compared to what is recommended. For example, how many calories are clients consuming compared to the recommended value.
 
-SHARE
+## SHARE
 
 The data was exported to Tableau Desktop, through the BigQuery import option. That way, 5 data visualization charts were created, and then sent to 3 dashboards in Tableau Public.
 
