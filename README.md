@@ -244,5 +244,12 @@ The data was exported to Tableau Desktop, through the BigQuery import option. Th
 
 The dashboards can be consulted in [here](https://public.tableau.com/views/GoogleCertification-CaseStudy/Historia2?:language=es-ES&:display_count=n&:origin=viz_share_link)
 
+Checking the graphs one can tell:
 
+1. The average of daily steps taken by the costumers is barely above of the recommended ammount of steps.
+2. The same happens with the Daily hours of sleep. However is noticible that some costumers are barely registering their sleep as some of them have less than 3 hours of daily sleep, which is obviously not what they're sleeping.
+Therefore, it's necessary to make it easier to costumers to register their sleep.
+3. Some good news it's coming from the Average Heart Rate, as all the clients have a hart rate just in the healthy range (100 - 60 beats pear minute) 
+4. Other topic is the Daily Calorie Intake (average) which in the clients is above of the recommendation by the World Health Organization.
+This is a trend that the company can focus, so it can put its efforts on strategies to recommend healthier foods to the clients, including a better way to eat and plan client's calories intake.
 
